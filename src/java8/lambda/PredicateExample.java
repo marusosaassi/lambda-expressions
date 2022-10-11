@@ -1,4 +1,6 @@
-package java8.lambda.models;
+package java8.lambda;
+
+import java8.lambda.models.User;
 
 import java.util.function.BiPredicate;
 import java.util.function.Predicate;
