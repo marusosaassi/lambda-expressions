@@ -24,9 +24,7 @@ public class ConsumerExample {
         };
         consumer.accept(new Date());
 
-        BiConsumer<String, Integer> biConsumer = (name, age) -> {
-            System.out.println(name + " is " + age + " years old.");
-        };
+        BiConsumer<String, Integer> biConsumer = (name, age) -> System.out.println(name + " is " + age + " years old.");
         biConsumer.accept("Rafa", 26);
 
         //Consumer<String> consumer2 = message -> System.out.println(message); // simplified;
